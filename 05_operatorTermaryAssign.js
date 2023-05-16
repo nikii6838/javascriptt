@@ -2,7 +2,7 @@ console.log("")
 console.log(" ------------------------1.male Marriage Eligibility--------------------------.");
 console.log("")
 var maleMarriageEligibility = function (gender,age , boyName){
-    var result = gender=="Male" && age >= 21 ?  `Hey ${boyName} you are eligible for Marriage` :` Hey ${boyName} you are not eligible for Marriage`;
+    var result = gender=="Male" && age >= 21 ?  `${boyName} you are eligible for Marriage` :`  ${boyName} you are not eligible for Marriage`;
     console.log(result);
 }
 maleMarriageEligibility("Male" , 25, "Bill Gates");
