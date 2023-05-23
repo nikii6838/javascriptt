@@ -11,12 +11,12 @@ console.log(`last element in array -> ${elementTWo}`);
 console.log(" ");
 
 console.log(`2. Add papaya before Element Banana ->`);
-arrayFruits.splice(4,1);
+arrayFruits.splice(0,0,"papaya");
 console.log(`${arrayFruits}`);
 console.log(" ");
 
 console.log(`3.Remove "Mango " from the  Array ->`);
-arrayFruits.splice(0,0,"papaya");
+arrayFruits.splice(4,1);
 console.log(`${arrayFruits}`);
 console.log(" ");
 
@@ -26,23 +26,23 @@ console.log(`${arrayFruits}`);
 console.log(" ");
 
 console.log(`5.Inserch "Dragon Fruit" Before water Melon ->`);
-arrayFruits.splice(5,0,"Dragon Fruit");
+arrayFruits.splice(4,0,"Dragon Fruit");
 console.log(`${arrayFruits}`);
 console.log(" ");
 
 console.log(`6. Replace Orange with kiwi ->`);
-arrayFruits[0,2] = "kiwi";
+arrayFruits .splice(2,1, "kiwi");
 console.log(`${arrayFruits}`);
 console.log(" ");
 
+var fruts = arrayFruits.slice(1,4);
 console.log(`7.Log Element Starting Form index 1 to 4 ->`);
-var newindex = arrayFruits.slice(1,4);
-console.log(`${arrayFruits}`);
+console.log(`${fruts}`);
 console.log(" ");
 
 var lastElement1= arrayFruits.slice(-3);
 console.log(`8.Only select last 3 Element ->`);
-console.log(`${arrayFruits}`);
+console.log(`${lastElement1}`);
 
 
 
