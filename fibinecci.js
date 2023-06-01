@@ -8,6 +8,9 @@
     }
     return fibarray;
   }
+  console.log("Fibbonacci Series = ");
+  console.log('');
+  
   console.log(fib (15));
 
    
