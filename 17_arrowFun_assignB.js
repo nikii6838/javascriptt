@@ -39,23 +39,24 @@ console.log(" ");
 console.log("----------------------------------------------Employees whose names start with 'R'------------------------------------------------------------------------------");
 for (const emloyee of array_employees) {
     if (emloyee.empName.startsWith("R")) {
-        console.log(`complete details of  whors name start with " R" :${JSON.stringify(emloyee)}`);
+        console.log(`complete details of  whose name start with " R" :${JSON.stringify(emloyee)}`);
     }
 }
 console.log(" ");
 console.log(" -----------------------------------------Employees with salary greater than 75000-----------------------------------------------------------------------------------");
 for (const employee of array_employees) {
     if (employee.empSalary > 75000) {
-        console.log(`Whoes salary greater than 75000 => emp name :${employee.empName} Employee Company : ${employee.empCompany} Employee Salary : ${employee.empSalary}`)
+        console.log(`Whose salary greater than 75000 => emp name :${employee.empName} Employee Company : ${employee.empCompany} Employee Salary : ${employee.empSalary}`)
     }
 }
 console.log(" ");
 console.log("---------------------------------------Employees with salary greater than or equal to 50000 and from the 'IT' department-------------------------------------------");
-for (const emloyee of array_employees) {
-    if (emloyee.empSalary >= 50000 && emloyee.empDept == "IT") {
-        console.log(`whoes salary >= 50000 and from It Dept : ${JSON.stringify(emloyee)} `)
-    }
-}
+
+array_employees.forEach(emp => {
+  if (emp.empSalary >= 50000 && emp.empDept === "It") {
+    console.log("Employee Details:", emp);
+  }
+});
 
 console.log(" ");
 console.log("------------------------------------------------------Employees from the company 'Infy'-----------------------------------------------------------------------------");
