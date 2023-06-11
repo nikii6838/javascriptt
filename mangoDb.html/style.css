@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    text-align: center;
+    margin: 2% 45% 2% 35%;
+    width: 630px;
+    
+}
+.mongoDB{
+    height: 670px;
+    width: 315px;
+    background-color: white;
+}
+.mongoDB img{
+    background-color: white;
+    /* border: 1px solid black; */
+    height: 140px;
+    width: 275px;
+}
+.useCase{
+    background-color: rgb(63, 182, 63);
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+}
+.mongoDB p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 500;
+    /* font-size: large; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mysql{
+    height: 670px;
+    width: 315px;
+    background-color: white;
+    position: relative;
+    bottom: 670px;
+    left: 315px;
+    border-left: 1px solid rgb(187, 182, 182);
+}
+.mysql img{
+    background-color: white;
+    /* border: 1px solid black; */
+    height: 100px;
+    padding: 30px 20px 10px 20px ;
+    width: 200px;
+}
+.head{
+    background-color: rgb(255, 166, 0);
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+}
+.mysql p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 500;
+    /* font-size: large; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#legacy{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 20px 10px;
+    font-weight: 500;
+    /* font-size: large; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
