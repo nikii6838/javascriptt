@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise time!</title>
+    </head>
+    <body>
+        <main>
+            <div id ="overview">
+                <h1>HTML & JavaScript are crucial technologies</h1>
+                <p>The web wpould not work without them...</p>
+            </div>
+            <div id ="advantages">
+                <ul>
+                    <li>Flexible</li>
+                    <li>Available</li>
+                    <li>Magical</li>
+                </ul>
+            </div>
+        </main>
+    
+    <script>
+const elementH1 = document.querySelector("h1");
+console.log(elementH1.innerHTML);
+
+const elementH3 = document.querySelectorAll("li")
+console.log(elementH3[1].innerHTML);
+
+const alldivEle = document.querySelectorAll("#advantages");
+// console.log(alldivEle);
+for (const element of alldivEle) {
+    console.log(element.innerHTML);
+}
+
+
+    </script>
+    </body>
+</html>
